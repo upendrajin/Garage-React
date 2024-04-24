@@ -26,7 +26,7 @@ const Clogin = () => {
           onSubmit={async (values) => {
             axios
               .post(
-                "https://garage-node-gioc.onrender.com/customer/login",
+                "https://blog-node-1.onrender.com/customer/login",
                 values
               )
               .then((res) => {

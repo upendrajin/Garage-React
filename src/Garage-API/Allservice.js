@@ -21,7 +21,7 @@ const Allservice = () => {
 
   const getService = () => {
     axios
-      .get("https://garage-node-gioc.onrender.com/service/find")
+      .get("https://blog-node-1.onrender.com/service/find")
       .then((res) => {
         console.log(res.data.data);
         setService(res.data.data);
@@ -104,7 +104,7 @@ const Allservice = () => {
                         variant="top"
                         className="p-0"
                         src={
-                          "https://garage-node-gioc.onrender.com/images/" +
+                          "https://blog-node-1.onrender.com/images/" +
                           el.image
                         }
                       />

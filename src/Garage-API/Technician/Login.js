@@ -29,7 +29,7 @@ const Login = () => {
           onSubmit={async (values) => {
             axios
               .post(
-                "https://garage-node-gioc.onrender.com/technician/login",
+                "https://blog-node-1.onrender.com/technician/login",
                 values
               )
               .then((res) => {

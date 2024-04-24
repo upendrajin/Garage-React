@@ -29,7 +29,7 @@ const Appointment = () => {
           onSubmit={async (values) => {
             axios
               .post(
-                "https://garage-node-gioc.onrender.com/appointment/create",
+                "https://blog-node-1.onrender.com/appointment/create",
                 values,
                 {
                   headers: {

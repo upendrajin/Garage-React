@@ -14,7 +14,7 @@ const Technician = () => {
 
   const getAppointment = () => {
     axios
-      .get("https://garage-node-gioc.onrender.com/appointment/find")
+      .get("https://blog-node-1.onrender.com/appointment/find")
       .then((res) => {
         console.log(res.data.data);
         setAppoinment(res.data.data);
