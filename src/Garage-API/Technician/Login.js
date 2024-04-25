@@ -29,7 +29,7 @@ const Login = () => {
           onSubmit={async (values) => {
             axios
               .post(
-                "https://blog-node-1.onrender.com/technician/login",
+                "https://autologic.onrender.com/technician/login",
                 values
               )
               .then((res) => {

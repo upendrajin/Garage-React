@@ -33,7 +33,7 @@ const Signup = () => {
           onSubmit={async (values) => {
             axios
               .post(
-                "https://blog-node-1.onrender.com/technician/signup",
+                "https://autologic.onrender.com/technician/signup",
                 values
               )
               .then((res) => {

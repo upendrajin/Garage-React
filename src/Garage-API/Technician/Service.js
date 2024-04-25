@@ -17,7 +17,7 @@ const Service = () => {
     form.append("cost", values.cost);
 
     axios
-      .post("https://blog-node-1.onrender.com/service/create", form, {
+      .post("https://autologic.onrender.com/service/create", form, {
         headers: {
           techniciantoken: techniciantoken,
           "Content-Type": "multipart/form-data",

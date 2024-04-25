@@ -29,7 +29,7 @@ const Invoice = () => {
           onSubmit={async (values) => {
             axios
               .post(
-                "https://blog-node-1.onrender.com/invoice/create",
+                "https://autologic.onrender.com/invoice/create",
                 values,
                 {
                   headers: { appointmenttoken: appointmenttoken },

@@ -29,7 +29,7 @@ const Vehical = () => {
           onSubmit={async (values) => {
             axios
               .post(
-                "https://blog-node-1.onrender.com/vehicle/create",
+                "https://autologic.onrender.com/vehicle/create",
                 values,
                 {
                   headers: { customertoken: token },

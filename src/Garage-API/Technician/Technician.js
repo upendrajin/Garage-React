@@ -14,7 +14,7 @@ const Technician = () => {
 
   const getAppointment = () => {
     axios
-      .get("https://blog-node-1.onrender.com/appointment/find")
+      .get("https://autologic.onrender.com/appointment/find")
       .then((res) => {
         console.log(res.data.data);
         setAppoinment(res.data.data);

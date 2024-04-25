@@ -26,7 +26,7 @@ const Clogin = () => {
           onSubmit={async (values) => {
             axios
               .post(
-                "https://blog-node-1.onrender.com/customer/login",
+                "https://autologic.onrender.com/customer/login",
                 values
               )
               .then((res) => {
